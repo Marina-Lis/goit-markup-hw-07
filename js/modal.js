@@ -13,4 +13,10 @@
     refs.modal.classList.toggle("open-modal");
     refs.body.classList.toggle("no-scroll");
   }
+  // document.getElementById("submitMyForm").addEventListener("click", function(event){
+  //   event.preventDefault();
+  //   console.log("clickMyForm");
+  //       }
+         
+  //       );
 })();
