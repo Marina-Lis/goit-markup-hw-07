@@ -1,3 +1,9 @@
+.ocupation{
+        @media screen and ( max-width: 767px) {
+        display: none;
+    }
+}
+
 .ocupation__item {
     flex-basis: calc(100/3 - var(--tipical-margin));
     margin-right: var(--tipical-margin);
@@ -5,7 +11,7 @@
 
     &:last-child {
         margin-right: 0;
-    }
+         }
 }
 
 .ocupation__text {
