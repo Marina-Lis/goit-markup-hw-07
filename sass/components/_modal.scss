@@ -83,12 +83,12 @@
   }
   
   
-   .modal-input:-autofill,
-  .modal-input:-autofill:hover,
-  .modal-input:-autofill:focus
-  {
-  -webkit-box-shadow: 0 0 0px 1000px var(--accent2-text-color) inset;
-  }  
+  //  .modal-input:-autofill,
+  // .modal-input:-autofill:hover,
+  // .modal-input:-autofill:focus
+  // {
+  // -webkit-box-shadow: 0 0 0px 1000px var(--accent2-text-color) inset;
+  // }  
 
   
   // .modal-input:-webkit-autofill,
@@ -240,18 +240,5 @@
     fill: #2196F3;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     /* border-color: #2196F3 */
-  } */
+  }
   
-  
-  
-  
-  /* .is-hidden {
-    visibility: hidden;
-    opacity: 0;
-    pointer-events: none;
-  
-  } */
-  /* 
-  .no-scroll {
-    overflow: hidden;
-  } */
