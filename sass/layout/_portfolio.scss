@@ -7,7 +7,7 @@
 }
 
 .portfolio__button {
-  @include font (null, 500, 16px, 1.62);
+  // @include font (null, 500, 16px, 1.62,0.03em);
   @include button();
   padding: 6px 22px;
   margin-right: 6px;
@@ -59,7 +59,7 @@
 }
 
 .portfolio__card-text {
-  @include font (#FFFFFF, null, 18px, 1.56);
+  // @include font (#FFFFFF, null, 18px, 1.56, 0.03em);
   position: absolute;
   top: 0;
   padding: 63px 24px;
@@ -81,10 +81,10 @@
 }
 
 .portfolio__card-title {
-  @include font (#212121, 700, 18px, 2, 0.06em);
+  // @include font (#212121, 700, 18px, 2, 0.06em);
 }
 
 .portfolio__bottom-text {
-  @include font (#757575, null, 16px, 1.8, null);
+  // @include font (#757575, null, 16px, 1.8, null);
   margin-top: 4px;
 }
