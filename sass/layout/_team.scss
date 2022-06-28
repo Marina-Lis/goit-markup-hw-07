@@ -19,12 +19,12 @@
 }
 
 .card-list__item-title {
-    @include font (null, 500, 16px, 1.18);
+    @include font (null, 500, 16px, 1.18, null);
     margin-bottom: 10px;
 }
 
 .card-list__item-text {
-    @include font (#757575, 400, 16px, 1.18);
+    @include font (#757575, 400, 16px, 1.18, null);
     margin-bottom: 16px;
 }
 
